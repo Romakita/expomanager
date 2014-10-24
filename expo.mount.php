@@ -4,7 +4,7 @@ Plugin Name: Exposition Manager
 Plugin URI:	http://www.javalyss.fr/marketplace/exposition/
 Description: Cette extension ajoute la gestion des expositions et notes de frais pour les artisants.
 Author: Lenzotti Romain
-Version: 1.1
+Version: 1.2
 Author URI: http://rom-makita.fr
 
 This program is free software; you can redistribute it and/or modify
@@ -37,4 +37,3 @@ System::observe('plugin.configure', array('Exposition','Configure'));
 System::observe('plugin.deactive', array('Exposition','Deactive'));
 System::Observe('blog:post.build', array('Exposition', 'onBuildPost'));
 System::observe('blog:startinterface', array('Exposition','onStartInterface'));
-?>

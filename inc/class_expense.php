@@ -311,4 +311,3 @@ class Expense extends ObjectTools{
 		return $result;
 	}
 }
-?>
